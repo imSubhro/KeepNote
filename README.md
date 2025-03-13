@@ -13,3 +13,11 @@ simple keepnote using flask
         "/note/delete/note1"
 ```
 
+# Use Docker Image 
+```
+docker pull imsubhro/keepnote-app:latest
+```
+
+```
+docker run -p 5000:5000 imsubhro/keepnote-app
+```
